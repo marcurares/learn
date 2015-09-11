@@ -1,6 +1,6 @@
 # ES6
 >ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is underway now. [link]
-Always use const, use let only you know variable’s value is going to change. [Source](https://www.google.ro/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCMQFjABahUKEwjv9-mnme_HAhUFuxQKHUrwB0M&url=https%3A%2F%2Fgithub.com%2Flukehoban%2Fes6features&usg=AFQjCNFjF5FvDoQhP4pDWHbe2vB2qzVr6A&sig2=bxNQw6xjADuIlk1KertX_g)
+Always use const, use let only you know variable’s value is going to change. [Source](https://github.com/lukehoban/es6features)
 
 ## Features
 ### Deconstructing
