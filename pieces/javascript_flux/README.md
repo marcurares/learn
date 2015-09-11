@@ -1,0 +1,51 @@
+# Flux
+
+* Dynamic data
+* One way
+* Dispatcher + event library
+
+**Views dispatch actions**
+
+## Dispatcher
+
+* Event system
+* Broadcasts events
+* Registers callbacks
+* Only 1 global dispatcher
+
+## Store
+
+Store responds to dispatched events
+
+* Collection of data
+* Singleton (see [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern))
+> In software engineering, the singleton pattern is a design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system.
+* Stores emit "Change" events, to which views listen
+
+```
+var ListStore = {};
+
+AppDispatcher.register(function() {
+  switch(evName) {
+    case 'foo':
+      ListStore.push(bar);
+      EventLibrary.emit('change');
+      ..
+  }
+});
+```
+
+## Actions
+
+* Abstraction on top of Dispatcher (easier to define, if there were no actions you would have to define cases in switch)
+
+```
+var ListActions = {
+  add: () => {
+    AppDispatcher.dispatch(..);
+  }
+};
+```
+
+## Flux scheme
+![GitHub Logo](https://cask.scotch.io/2014/10/V70cSEC.png)
