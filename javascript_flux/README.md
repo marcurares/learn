@@ -49,3 +49,9 @@ var ListActions = {
 
 ## Flux scheme
 ![GitHub Logo](https://cask.scotch.io/2014/10/V70cSEC.png)
+
+## Worth taking into consideration when thinking about using Flux
+
+[Where Flux went wrong](http://technologyadvice.github.io/where-flux-went-wrong/)
+
+TL:DR. Try to use state as little as possible, and rely more on props (this further abstracts the data source, hence an improvement). You can achieve this easily usign [Redux](http://redux.js.org/).
