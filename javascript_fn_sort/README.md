@@ -23,7 +23,7 @@ const compare = (a, b) => {
   }
 };
 
-[3, 1, 2].sort();
+[3, 1, 2].sort(compare);
 ```
 
 You can find more about the meaning of -1, 0, 1 here: [MDN - sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
