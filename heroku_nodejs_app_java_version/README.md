@@ -20,4 +20,4 @@ You can test it by running:
 heroku run java -version
 ```
 
-Upvote the answer [here](http://stackoverflow.com/questions/34834990/java-unsupported-class-version-on-heroku-for-nodejs-app).
+I found the answer [here](http://stackoverflow.com/questions/34834990/java-unsupported-class-version-on-heroku-for-nodejs-app).
