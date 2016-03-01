@@ -16,8 +16,10 @@ Or maybe even:
 
 But with template strings, it's even easier:
 ```
-  const x = \`abc${a};${b};${c}\`;
+  const x = `abc${a};${b};${c}`;
 ```
+
+To use a variable inside a template string, just use it as: `${VAR}`.
 
 Notice the use of ticks and not of apostrophes.
 
