@@ -18,6 +18,7 @@ Self-Contained
 * Avoid confusing semantics
 * Avoid double negatives *(const disabled = true should be const enabled = false)*
 * Use verbal actions *(sendMessage is better than message)*
+* Modular
 
 
 #### Static polymorphism
